@@ -1,0 +1,120 @@
+body {
+  height: 100vh;
+  width: 95vw;
+  background: rgb(53,53,120);
+  background: linear-gradient(126deg, rgba(53,53,120,1) 0%, rgba(32,90,167,1) 50%, rgba(0,148,240,1) 100%);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.nav-item {
+  padding-right: 20px;
+  margin-top: 1vh;
+}
+
+.text-center {
+  color: #fff;
+}
+
+#login {
+  margin-top: 0;
+}
+
+#login-form, #restore-form {
+  background: #fff;
+  border-radius: 30px;
+  padding: 5vh 1vw 8vh 3vw;
+  box-shadow: 1px 1px 13px 3px rgba(0,0,0,0.42);
+  -webkit-box-shadow: 1px 1px 13px 3px rgba(0,0,0,0.42);
+  -moz-box-shadow: 1px 1px 13px 3px rgba(0,0,0,0.42);
+}
+
+
+
+.form-control {
+  /*border: none;*/
+  /*width: 23vw;*/
+  float: right;
+  background-color: #C7E9FE;
+  border-radius: 5pc;
+}
+
+.form-group {
+  position: relative;
+  left: 0vw;
+  top: 2vh;
+  /*padding-bottom: 35px;*/
+  /*padding-left: 17px;*/
+  padding: 0 3vw 8vh 1vw;
+}
+
+.btn.btn-primary.text-uppercase {
+  background-color: #5DBFFC;
+  border: none;
+  position: relative;
+  border-radius: 15px;
+  padding: 4px 20px 4px 20px;
+  top: 4vh;
+}
+
+.login-button{
+  left: 33%;
+}
+.restore-button{
+  left: 21%;
+}
+
+#links {
+  position: relative;
+  top: 7vh;
+  padding-bottom: 4vh;
+}
+
+#links a {
+  color: grey;
+}
+
+#group {
+  padding-top: 5vh;
+}
+
+#logo {
+  width: 26%;
+  /*position: relative;*/
+  /*left: 44vw;*/
+  /*top: 4vh;*/
+  margin-left: 36%;
+}
+
+#search {
+  position: relative;
+  left: 2%;
+  border-radius: 20px;
+  background-color: #2A8EDA;
+  border: none;
+  height: 34px;
+}
+
+.search-button {
+  border-radius: 50px;
+  position: relative;
+  font-size: 14px;
+  left: -34px;
+  top: -0.5px;
+}
+
+.actions {
+  position: relative;
+  left: 5vw;
+}
+
+.flash{
+  position: absolute;
+  width: 80%;
+  top: 85vh;
+  left: 10vw;
+  height: 35%;
+z-index: 999;
+}

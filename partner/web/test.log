@@ -1,0 +1,387 @@
+app\models\Gadgets Object
+(
+    [_attributes:yii\db\BaseActiveRecord:private] => Array
+        (
+            [token] => 718358
+            [id] => 5
+        )
+
+    [_oldAttributes:yii\db\BaseActiveRecord:private] => Array
+        (
+            [token] => 718358
+            [id] => 5
+        )
+
+    [_related:yii\db\BaseActiveRecord:private] => Array
+        (
+        )
+
+    [_relationsDependencies:yii\db\BaseActiveRecord:private] => Array
+        (
+        )
+
+    [_errors:yii\base\Model:private] => Array
+        (
+        )
+
+    [_validators:yii\base\Model:private] => ArrayObject Object
+        (
+            [storage:ArrayObject:private] => Array
+                (
+                    [0] => yii\validators\NumberValidator Object
+                        (
+                            [integerOnly] => 1
+                            [max] => 
+                            [min] => 
+                            [tooBig] => 
+                            [tooSmall] => 
+                            [integerPattern] => /^\s*[+-]?\d+\s*$/
+                            [numberPattern] => /^\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/
+                            [attributes] => Array
+                                (
+                                    [0] => parking
+                                    [1] => token
+                                )
+
+                            [message] => Значение «{attribute}» должно быть целым числом.
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [1] => yii\validators\StringValidator Object
+                        (
+                            [length] => 
+                            [max] => 50
+                            [min] => 
+                            [message] => Значение «{attribute}» должно быть строкой.
+                            [tooShort] => 
+                            [tooLong] => Значение «{attribute}» должно содержать максимум {max, number} {max, plural, one{символ} few{символа} many{символов} other{символа}}.
+                            [notEqual] => 
+                            [encoding] => UTF-8
+                            [attributes] => Array
+                                (
+                                    [0] => date
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                )
+
+        )
+
+    [_scenario:yii\base\Model:private] => default
+    [_events:yii\base\Component:private] => Array
+        (
+        )
+
+    [_eventWildcards:yii\base\Component:private] => Array
+        (
+        )
+
+    [_behaviors:yii\base\Component:private] => Array
+        (
+        )
+
+)
+app\models\Gadgets Object
+(
+    [_attributes:yii\db\BaseActiveRecord:private] => Array
+        (
+            [token] => 427586
+            [id] => 9
+        )
+
+    [_oldAttributes:yii\db\BaseActiveRecord:private] => Array
+        (
+            [token] => 427586
+            [id] => 9
+        )
+
+    [_related:yii\db\BaseActiveRecord:private] => Array
+        (
+        )
+
+    [_relationsDependencies:yii\db\BaseActiveRecord:private] => Array
+        (
+        )
+
+    [_errors:yii\base\Model:private] => Array
+        (
+        )
+
+    [_validators:yii\base\Model:private] => ArrayObject Object
+        (
+            [storage:ArrayObject:private] => Array
+                (
+                    [0] => yii\validators\NumberValidator Object
+                        (
+                            [integerOnly] => 1
+                            [max] => 
+                            [min] => 
+                            [tooBig] => 
+                            [tooSmall] => 
+                            [integerPattern] => /^\s*[+-]?\d+\s*$/
+                            [numberPattern] => /^\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/
+                            [attributes] => Array
+                                (
+                                    [0] => parking
+                                    [1] => token
+                                )
+
+                            [message] => Значение «{attribute}» должно быть целым числом.
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [1] => yii\validators\StringValidator Object
+                        (
+                            [length] => 
+                            [max] => 50
+                            [min] => 
+                            [message] => Значение «{attribute}» должно быть строкой.
+                            [tooShort] => 
+                            [tooLong] => Значение «{attribute}» должно содержать максимум {max, number} {max, plural, one{символ} few{символа} many{символов} other{символа}}.
+                            [notEqual] => 
+                            [encoding] => UTF-8
+                            [attributes] => Array
+                                (
+                                    [0] => date
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                )
+
+        )
+
+    [_scenario:yii\base\Model:private] => default
+    [_events:yii\base\Component:private] => Array
+        (
+        )
+
+    [_eventWildcards:yii\base\Component:private] => Array
+        (
+        )
+
+    [_behaviors:yii\base\Component:private] => Array
+        (
+        )
+
+)
+app\models\Gadgets Object
+(
+    [_attributes:yii\db\BaseActiveRecord:private] => Array
+        (
+            [token] => 843227
+            [id] => 10
+        )
+
+    [_oldAttributes:yii\db\BaseActiveRecord:private] => Array
+        (
+            [token] => 843227
+            [id] => 10
+        )
+
+    [_related:yii\db\BaseActiveRecord:private] => Array
+        (
+        )
+
+    [_relationsDependencies:yii\db\BaseActiveRecord:private] => Array
+        (
+        )
+
+    [_errors:yii\base\Model:private] => Array
+        (
+        )
+
+    [_validators:yii\base\Model:private] => ArrayObject Object
+        (
+            [storage:ArrayObject:private] => Array
+                (
+                    [0] => yii\validators\NumberValidator Object
+                        (
+                            [integerOnly] => 1
+                            [max] => 
+                            [min] => 
+                            [tooBig] => 
+                            [tooSmall] => 
+                            [integerPattern] => /^\s*[+-]?\d+\s*$/
+                            [numberPattern] => /^\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/
+                            [attributes] => Array
+                                (
+                                    [0] => parking
+                                    [1] => token
+                                )
+
+                            [message] => Значение «{attribute}» должно быть целым числом.
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [1] => yii\validators\StringValidator Object
+                        (
+                            [length] => 
+                            [max] => 50
+                            [min] => 
+                            [message] => Значение «{attribute}» должно быть строкой.
+                            [tooShort] => 
+                            [tooLong] => Значение «{attribute}» должно содержать максимум {max, number} {max, plural, one{символ} few{символа} many{символов} other{символа}}.
+                            [notEqual] => 
+                            [encoding] => UTF-8
+                            [attributes] => Array
+                                (
+                                    [0] => date
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                )
+
+        )
+
+    [_scenario:yii\base\Model:private] => default
+    [_events:yii\base\Component:private] => Array
+        (
+        )
+
+    [_eventWildcards:yii\base\Component:private] => Array
+        (
+        )
+
+    [_behaviors:yii\base\Component:private] => Array
+        (
+        )
+
+)

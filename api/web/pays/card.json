@@ -1,0 +1,3 @@
+{"type":"hold","date":1568187182,"client_card":34578787232,"sum":200}
+{"type":"pay","date":1568187182,"client_card":34578787232,"sum":200}
+{"type":"return","date":1568187182,"client_card":34578787232,"sum":200}

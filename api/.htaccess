@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^/(web)
+RewriteRule ^assets/(.*)$ /web/assets/$1 [L]
+RewriteRule ^zones/(.*)$ web/zones/$1 [L]
+RewriteRule ^js/(.*)$ web/js/$1 [L]
+#аватарки
+RewriteRule ^usimage/(.*)$ web/usimage/$1 [L]
+#статичные карты
+RewriteRule ^usmap/(.*)$ web/usmap/$1 [L]
+RewriteRule (.*) /web/$1
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /web/index.php

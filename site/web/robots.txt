@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /images/
+Disallow: /js/
+Disallow: /css/
+Disallow: /write/
+User-agent: Googlebot
+Allow: /
+Disallow: /write/
+User-agent: Yandex
+Allow: /images/
+Disallow: /js/
+Disallow: /css/
+Disallow: /write/
+Host: parkingsquatter.com

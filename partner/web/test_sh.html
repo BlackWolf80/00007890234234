@@ -1,0 +1,1177 @@
+Array
+(
+    [btn] => a0
+)
+app\models\Parkings Object
+(
+    [_attributes:yii\db\BaseActiveRecord:private] => Array
+        (
+            [id] => 35
+            [uid_squatter] => 210838f4-f7ed-11e9-bb79-5a49f30468da
+            [name] => Danil
+            [size] => 1
+            [busy] => 1
+            [hold] => 0
+            [address] => Тургеневское ш., 25/4в, Новая Адыгея, Республика Адыгея, Россия
+            [lat] => 45.01793289
+            [lng] => 38.93381882
+            [phone] => +7 (952) 978-04-16
+            [type_of_payment] => 0
+            [status] => 1
+            [username] => 9529780415
+            [password] => $2y$13$vK3vno2miO4Ea9TdMsLs2u3lmniqdHedVJMJoxyXpsR519s4UVoVy
+            [auth_key] => 
+            [price] => 355
+            [start_time] => 00:00:00
+            [end_time] => 23:59:00
+            [time_zone] => 10800
+            [w_days] => ["6","7"]
+            [type] => 6
+            [options] => ["4"]
+            [currency] => rub
+            [seat_guarantee] => 1
+            [valid_vehicles] => ["Легковой автомобиль","Внедорожник"]
+            [limit_heights] => 3
+            [around_the_clock] => 0
+        )
+
+    [_oldAttributes:yii\db\BaseActiveRecord:private] => Array
+        (
+            [id] => 35
+            [uid_squatter] => 210838f4-f7ed-11e9-bb79-5a49f30468da
+            [name] => Danil
+            [size] => 1
+            [busy] => 1
+            [hold] => 0
+            [address] => Тургеневское ш., 25/4в, Новая Адыгея, Республика Адыгея, Россия
+            [lat] => 45.01793289
+            [lng] => 38.93381882
+            [phone] => +7 (952) 978-04-16
+            [type_of_payment] => 0
+            [status] => 1
+            [username] => 9529780415
+            [password] => $2y$13$vK3vno2miO4Ea9TdMsLs2u3lmniqdHedVJMJoxyXpsR519s4UVoVy
+            [auth_key] => 
+            [price] => 355
+            [start_time] => 00:00:00
+            [end_time] => 23:59:00
+            [time_zone] => 10800
+            [w_days] => ["6","7"]
+            [type] => 6
+            [options] => ["4"]
+            [currency] => rub
+            [seat_guarantee] => 1
+            [valid_vehicles] => ["Легковой автомобиль","Внедорожник"]
+            [limit_heights] => 3
+            [around_the_clock] => 0
+        )
+
+    [_related:yii\db\BaseActiveRecord:private] => Array
+        (
+        )
+
+    [_relationsDependencies:yii\db\BaseActiveRecord:private] => Array
+        (
+        )
+
+    [_errors:yii\base\Model:private] => Array
+        (
+        )
+
+    [_validators:yii\base\Model:private] => ArrayObject Object
+        (
+            [storage:ArrayObject:private] => Array
+                (
+                    [0] => yii\validators\RequiredValidator Object
+                        (
+                            [skipOnEmpty] => 
+                            [requiredValue] => 
+                            [strict] => 
+                            [message] => Необходимо заполнить «{attribute}».
+                            [attributes] => Array
+                                (
+                                    [0] => name
+                                    [1] => size
+                                    [2] => address
+                                    [3] => lat
+                                    [4] => lng
+                                    [5] => phone
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [1] => yii\validators\NumberValidator Object
+                        (
+                            [integerOnly] => 1
+                            [max] => 
+                            [min] => 
+                            [tooBig] => 
+                            [tooSmall] => 
+                            [integerPattern] => /^\s*[+-]?\d+\s*$/
+                            [numberPattern] => /^\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/
+                            [attributes] => Array
+                                (
+                                    [0] => size
+                                    [1] => busy
+                                    [2] => hold
+                                    [3] => type_of_payment
+                                    [4] => status
+                                    [5] => time_zone
+                                    [6] => type
+                                    [7] => seat_guarantee
+                                    [8] => limit_heights
+                                    [9] => around_the_clock
+                                )
+
+                            [message] => Значение «{attribute}» должно быть целым числом.
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [2] => yii\validators\NumberValidator Object
+                        (
+                            [integerOnly] => 
+                            [max] => 
+                            [min] => 
+                            [tooBig] => 
+                            [tooSmall] => 
+                            [integerPattern] => /^\s*[+-]?\d+\s*$/
+                            [numberPattern] => /^\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/
+                            [attributes] => Array
+                                (
+                                    [0] => lat
+                                    [1] => lng
+                                    [2] => price
+                                )
+
+                            [message] => Значение «{attribute}» должно быть числом.
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [3] => yii\validators\SafeValidator Object
+                        (
+                            [attributes] => Array
+                                (
+                                    [0] => start_time
+                                    [1] => end_time
+                                )
+
+                            [message] => 
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [4] => yii\validators\StringValidator Object
+                        (
+                            [length] => 
+                            [max] => 50
+                            [min] => 
+                            [message] => Значение «{attribute}» должно быть строкой.
+                            [tooShort] => 
+                            [tooLong] => Значение «{attribute}» должно содержать максимум {max, number} {max, plural, one{символ} few{символа} many{символов} other{символа}}.
+                            [notEqual] => 
+                            [encoding] => UTF-8
+                            [attributes] => Array
+                                (
+                                    [0] => uid_squatter
+                                    [1] => name
+                                    [2] => phone
+                                    [3] => username
+                                    [4] => currency
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [5] => yii\validators\StringValidator Object
+                        (
+                            [length] => 
+                            [max] => 150
+                            [min] => 
+                            [message] => Значение «{attribute}» должно быть строкой.
+                            [tooShort] => 
+                            [tooLong] => Значение «{attribute}» должно содержать максимум {max, number} {max, plural, one{символ} few{символа} many{символов} other{символа}}.
+                            [notEqual] => 
+                            [encoding] => UTF-8
+                            [attributes] => Array
+                                (
+                                    [0] => address
+                                    [1] => password
+                                    [2] => auth_key
+                                    [3] => w_days
+                                    [4] => options
+                                    [5] => valid_vehicles
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [6] => yii\validators\UniqueValidator Object
+                        (
+                            [targetClass] => 
+                            [targetAttribute] => 
+                            [filter] => 
+                            [message] => Значение «{value}» для «{attribute}» уже занято.
+                            [comboNotUnique] => 
+                            [targetAttributeJunction] => and
+                            [forceMasterDb] => 1
+                            [attributes] => Array
+                                (
+                                    [0] => phone
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                )
+
+        )
+
+    [_scenario:yii\base\Model:private] => default
+    [_events:yii\base\Component:private] => Array
+        (
+        )
+
+    [_eventWildcards:yii\base\Component:private] => Array
+        (
+        )
+
+    [_behaviors:yii\base\Component:private] => Array
+        (
+        )
+
+)
+app\models\Parkings Object
+(
+    [_attributes:yii\db\BaseActiveRecord:private] => Array
+        (
+            [id] => 35
+            [uid_squatter] => 210838f4-f7ed-11e9-bb79-5a49f30468da
+            [name] => Danil
+            [size] => 1
+            [busy] => 1
+            [hold] => 0
+            [address] => Тургеневское ш., 25/4в, Новая Адыгея, Республика Адыгея, Россия
+            [lat] => 45.01793289
+            [lng] => 38.93381882
+            [phone] => +7 (952) 978-04-16
+            [type_of_payment] => 0
+            [status] => 1
+            [username] => 9529780415
+            [password] => $2y$13$vK3vno2miO4Ea9TdMsLs2u3lmniqdHedVJMJoxyXpsR519s4UVoVy
+            [auth_key] => 
+            [price] => 355
+            [start_time] => 00:00:00
+            [end_time] => 23:59:00
+            [time_zone] => 10800
+            [w_days] => ["6","7"]
+            [type] => 6
+            [options] => ["4"]
+            [currency] => rub
+            [seat_guarantee] => 1
+            [valid_vehicles] => ["Легковой автомобиль","Внедорожник"]
+            [limit_heights] => 3
+            [around_the_clock] => 0
+        )
+
+    [_oldAttributes:yii\db\BaseActiveRecord:private] => Array
+        (
+            [id] => 35
+            [uid_squatter] => 210838f4-f7ed-11e9-bb79-5a49f30468da
+            [name] => Danil
+            [size] => 1
+            [busy] => 1
+            [hold] => 0
+            [address] => Тургеневское ш., 25/4в, Новая Адыгея, Республика Адыгея, Россия
+            [lat] => 45.01793289
+            [lng] => 38.93381882
+            [phone] => +7 (952) 978-04-16
+            [type_of_payment] => 0
+            [status] => 1
+            [username] => 9529780415
+            [password] => $2y$13$vK3vno2miO4Ea9TdMsLs2u3lmniqdHedVJMJoxyXpsR519s4UVoVy
+            [auth_key] => 
+            [price] => 355
+            [start_time] => 00:00:00
+            [end_time] => 23:59:00
+            [time_zone] => 10800
+            [w_days] => ["6","7"]
+            [type] => 6
+            [options] => ["4"]
+            [currency] => rub
+            [seat_guarantee] => 1
+            [valid_vehicles] => ["Легковой автомобиль","Внедорожник"]
+            [limit_heights] => 3
+            [around_the_clock] => 0
+        )
+
+    [_related:yii\db\BaseActiveRecord:private] => Array
+        (
+        )
+
+    [_relationsDependencies:yii\db\BaseActiveRecord:private] => Array
+        (
+        )
+
+    [_errors:yii\base\Model:private] => Array
+        (
+        )
+
+    [_validators:yii\base\Model:private] => ArrayObject Object
+        (
+            [storage:ArrayObject:private] => Array
+                (
+                    [0] => yii\validators\RequiredValidator Object
+                        (
+                            [skipOnEmpty] => 
+                            [requiredValue] => 
+                            [strict] => 
+                            [message] => Необходимо заполнить «{attribute}».
+                            [attributes] => Array
+                                (
+                                    [0] => name
+                                    [1] => size
+                                    [2] => address
+                                    [3] => lat
+                                    [4] => lng
+                                    [5] => phone
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [1] => yii\validators\NumberValidator Object
+                        (
+                            [integerOnly] => 1
+                            [max] => 
+                            [min] => 
+                            [tooBig] => 
+                            [tooSmall] => 
+                            [integerPattern] => /^\s*[+-]?\d+\s*$/
+                            [numberPattern] => /^\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/
+                            [attributes] => Array
+                                (
+                                    [0] => size
+                                    [1] => busy
+                                    [2] => hold
+                                    [3] => type_of_payment
+                                    [4] => status
+                                    [5] => time_zone
+                                    [6] => type
+                                    [7] => seat_guarantee
+                                    [8] => limit_heights
+                                    [9] => around_the_clock
+                                )
+
+                            [message] => Значение «{attribute}» должно быть целым числом.
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [2] => yii\validators\NumberValidator Object
+                        (
+                            [integerOnly] => 
+                            [max] => 
+                            [min] => 
+                            [tooBig] => 
+                            [tooSmall] => 
+                            [integerPattern] => /^\s*[+-]?\d+\s*$/
+                            [numberPattern] => /^\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/
+                            [attributes] => Array
+                                (
+                                    [0] => lat
+                                    [1] => lng
+                                    [2] => price
+                                )
+
+                            [message] => Значение «{attribute}» должно быть числом.
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [3] => yii\validators\SafeValidator Object
+                        (
+                            [attributes] => Array
+                                (
+                                    [0] => start_time
+                                    [1] => end_time
+                                )
+
+                            [message] => 
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [4] => yii\validators\StringValidator Object
+                        (
+                            [length] => 
+                            [max] => 50
+                            [min] => 
+                            [message] => Значение «{attribute}» должно быть строкой.
+                            [tooShort] => 
+                            [tooLong] => Значение «{attribute}» должно содержать максимум {max, number} {max, plural, one{символ} few{символа} many{символов} other{символа}}.
+                            [notEqual] => 
+                            [encoding] => UTF-8
+                            [attributes] => Array
+                                (
+                                    [0] => uid_squatter
+                                    [1] => name
+                                    [2] => phone
+                                    [3] => username
+                                    [4] => currency
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [5] => yii\validators\StringValidator Object
+                        (
+                            [length] => 
+                            [max] => 150
+                            [min] => 
+                            [message] => Значение «{attribute}» должно быть строкой.
+                            [tooShort] => 
+                            [tooLong] => Значение «{attribute}» должно содержать максимум {max, number} {max, plural, one{символ} few{символа} many{символов} other{символа}}.
+                            [notEqual] => 
+                            [encoding] => UTF-8
+                            [attributes] => Array
+                                (
+                                    [0] => address
+                                    [1] => password
+                                    [2] => auth_key
+                                    [3] => w_days
+                                    [4] => options
+                                    [5] => valid_vehicles
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [6] => yii\validators\UniqueValidator Object
+                        (
+                            [targetClass] => 
+                            [targetAttribute] => 
+                            [filter] => 
+                            [message] => Значение «{value}» для «{attribute}» уже занято.
+                            [comboNotUnique] => 
+                            [targetAttributeJunction] => and
+                            [forceMasterDb] => 1
+                            [attributes] => Array
+                                (
+                                    [0] => phone
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                )
+
+        )
+
+    [_scenario:yii\base\Model:private] => default
+    [_events:yii\base\Component:private] => Array
+        (
+        )
+
+    [_eventWildcards:yii\base\Component:private] => Array
+        (
+        )
+
+    [_behaviors:yii\base\Component:private] => Array
+        (
+        )
+
+)
+app\models\Parkings Object
+(
+    [_attributes:yii\db\BaseActiveRecord:private] => Array
+        (
+            [id] => 35
+            [uid_squatter] => 210838f4-f7ed-11e9-bb79-5a49f30468da
+            [name] => Danil
+            [size] => 1
+            [busy] => 0
+            [hold] => 0
+            [address] => Тургеневское ш., 25/4в, Новая Адыгея, Республика Адыгея, Россия
+            [lat] => 45.01793289
+            [lng] => 38.93381882
+            [phone] => +7 (952) 978-04-16
+            [type_of_payment] => 0
+            [status] => 1
+            [username] => 9529780415
+            [password] => $2y$13$vK3vno2miO4Ea9TdMsLs2u3lmniqdHedVJMJoxyXpsR519s4UVoVy
+            [auth_key] => 
+            [price] => 355
+            [start_time] => 00:00:00
+            [end_time] => 23:59:00
+            [time_zone] => 10800
+            [w_days] => ["6","7"]
+            [type] => 6
+            [options] => ["4"]
+            [currency] => rub
+            [seat_guarantee] => 1
+            [valid_vehicles] => ["Легковой автомобиль","Внедорожник"]
+            [limit_heights] => 3
+            [around_the_clock] => 0
+        )
+
+    [_oldAttributes:yii\db\BaseActiveRecord:private] => Array
+        (
+            [id] => 35
+            [uid_squatter] => 210838f4-f7ed-11e9-bb79-5a49f30468da
+            [name] => Danil
+            [size] => 1
+            [busy] => 0
+            [hold] => 0
+            [address] => Тургеневское ш., 25/4в, Новая Адыгея, Республика Адыгея, Россия
+            [lat] => 45.01793289
+            [lng] => 38.93381882
+            [phone] => +7 (952) 978-04-16
+            [type_of_payment] => 0
+            [status] => 1
+            [username] => 9529780415
+            [password] => $2y$13$vK3vno2miO4Ea9TdMsLs2u3lmniqdHedVJMJoxyXpsR519s4UVoVy
+            [auth_key] => 
+            [price] => 355
+            [start_time] => 00:00:00
+            [end_time] => 23:59:00
+            [time_zone] => 10800
+            [w_days] => ["6","7"]
+            [type] => 6
+            [options] => ["4"]
+            [currency] => rub
+            [seat_guarantee] => 1
+            [valid_vehicles] => ["Легковой автомобиль","Внедорожник"]
+            [limit_heights] => 3
+            [around_the_clock] => 0
+        )
+
+    [_related:yii\db\BaseActiveRecord:private] => Array
+        (
+        )
+
+    [_relationsDependencies:yii\db\BaseActiveRecord:private] => Array
+        (
+        )
+
+    [_errors:yii\base\Model:private] => Array
+        (
+        )
+
+    [_validators:yii\base\Model:private] => ArrayObject Object
+        (
+            [storage:ArrayObject:private] => Array
+                (
+                    [0] => yii\validators\RequiredValidator Object
+                        (
+                            [skipOnEmpty] => 
+                            [requiredValue] => 
+                            [strict] => 
+                            [message] => Необходимо заполнить «{attribute}».
+                            [attributes] => Array
+                                (
+                                    [0] => name
+                                    [1] => size
+                                    [2] => address
+                                    [3] => lat
+                                    [4] => lng
+                                    [5] => phone
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [1] => yii\validators\NumberValidator Object
+                        (
+                            [integerOnly] => 1
+                            [max] => 
+                            [min] => 
+                            [tooBig] => 
+                            [tooSmall] => 
+                            [integerPattern] => /^\s*[+-]?\d+\s*$/
+                            [numberPattern] => /^\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/
+                            [attributes] => Array
+                                (
+                                    [0] => size
+                                    [1] => busy
+                                    [2] => hold
+                                    [3] => type_of_payment
+                                    [4] => status
+                                    [5] => time_zone
+                                    [6] => type
+                                    [7] => seat_guarantee
+                                    [8] => limit_heights
+                                    [9] => around_the_clock
+                                )
+
+                            [message] => Значение «{attribute}» должно быть целым числом.
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [2] => yii\validators\NumberValidator Object
+                        (
+                            [integerOnly] => 
+                            [max] => 
+                            [min] => 
+                            [tooBig] => 
+                            [tooSmall] => 
+                            [integerPattern] => /^\s*[+-]?\d+\s*$/
+                            [numberPattern] => /^\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/
+                            [attributes] => Array
+                                (
+                                    [0] => lat
+                                    [1] => lng
+                                    [2] => price
+                                )
+
+                            [message] => Значение «{attribute}» должно быть числом.
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [3] => yii\validators\SafeValidator Object
+                        (
+                            [attributes] => Array
+                                (
+                                    [0] => start_time
+                                    [1] => end_time
+                                )
+
+                            [message] => 
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [4] => yii\validators\StringValidator Object
+                        (
+                            [length] => 
+                            [max] => 50
+                            [min] => 
+                            [message] => Значение «{attribute}» должно быть строкой.
+                            [tooShort] => 
+                            [tooLong] => Значение «{attribute}» должно содержать максимум {max, number} {max, plural, one{символ} few{символа} many{символов} other{символа}}.
+                            [notEqual] => 
+                            [encoding] => UTF-8
+                            [attributes] => Array
+                                (
+                                    [0] => uid_squatter
+                                    [1] => name
+                                    [2] => phone
+                                    [3] => username
+                                    [4] => currency
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [5] => yii\validators\StringValidator Object
+                        (
+                            [length] => 
+                            [max] => 150
+                            [min] => 
+                            [message] => Значение «{attribute}» должно быть строкой.
+                            [tooShort] => 
+                            [tooLong] => Значение «{attribute}» должно содержать максимум {max, number} {max, plural, one{символ} few{символа} many{символов} other{символа}}.
+                            [notEqual] => 
+                            [encoding] => UTF-8
+                            [attributes] => Array
+                                (
+                                    [0] => address
+                                    [1] => password
+                                    [2] => auth_key
+                                    [3] => w_days
+                                    [4] => options
+                                    [5] => valid_vehicles
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                    [6] => yii\validators\UniqueValidator Object
+                        (
+                            [targetClass] => 
+                            [targetAttribute] => 
+                            [filter] => 
+                            [message] => Значение «{value}» для «{attribute}» уже занято.
+                            [comboNotUnique] => 
+                            [targetAttributeJunction] => and
+                            [forceMasterDb] => 1
+                            [attributes] => Array
+                                (
+                                    [0] => phone
+                                )
+
+                            [on] => Array
+                                (
+                                )
+
+                            [except] => Array
+                                (
+                                )
+
+                            [skipOnError] => 1
+                            [skipOnEmpty] => 1
+                            [enableClientValidation] => 1
+                            [isEmpty] => 
+                            [when] => 
+                            [whenClient] => 
+                            [_events:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_eventWildcards:yii\base\Component:private] => Array
+                                (
+                                )
+
+                            [_behaviors:yii\base\Component:private] => 
+                        )
+
+                )
+
+        )
+
+    [_scenario:yii\base\Model:private] => default
+    [_events:yii\base\Component:private] => Array
+        (
+        )
+
+    [_eventWildcards:yii\base\Component:private] => Array
+        (
+        )
+
+    [_behaviors:yii\base\Component:private] => Array
+        (
+        )
+
+)
